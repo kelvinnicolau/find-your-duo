@@ -1,7 +1,12 @@
-function Button() {
+// Componentes / Propriedades
+interface ButtonProps {
+  title: string;
+}
+
+function Button(props: ButtonProps) {
   return (
     <button>
-      Send
+      {props.title}
     </button>
   )
 }
@@ -12,6 +17,7 @@ function App() {
       <Button title="Send 1" />
       <Button title="Send 2" />
       <Button title="Send 3" />
+      <Button title="Hello Word" />
     </div>
   )
 }
