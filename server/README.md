@@ -19,7 +19,7 @@ weekDays
 hourStart
 hourEnd
 useVoiceChannel
-createAt
+createdAt
 
 ## Casos de uso
 
